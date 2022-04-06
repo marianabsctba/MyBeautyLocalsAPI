@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_market"
+        android:enabled="true"
+        android:title="Market"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_restaurant"
+        android:enabled="true"
+        android:title="Restaurant"
+        android:icon="@drawable/ic_baseline_restaurant_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_hotel"
+        android:enabled="true"
+        android:title="Hotel"
+        android:icon="@drawable/ic_baseline_hotel_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_mall"
+        android:enabled="true"
+        android:title="Mall"
+        android:icon="@drawable/ic_baseline_local_mall_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_tour"
+        android:enabled="true"
+        android:title="Tour"
+        android:icon="@drawable/ic_baseline_tour_24"
+        app:showAsAction="ifRoom"/>
+</menu>
